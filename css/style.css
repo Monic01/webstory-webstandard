@@ -1,0 +1,50 @@
+@import url(/css/reset.css);
+
+body {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top,
+.header-nav {
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(96, 190, 159);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner,
+.content1,
+.content2,
+.content3 {
+    width: 80%;
+    height: 20vh;
+    background-color: rgb(48, 99, 82);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav,
+.footer-info {
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(31, 92, 71);
+}
