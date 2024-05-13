@@ -1,50 +1,83 @@
 @import url(/css/reset.css);
 
 body {
-    width: 100%;
-    background-color: aquamarine;
+  width: 100%;
+  background-color: gray;
 }
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.header-top,
-.header-nav {
-    width: 80%;
-    height: 10vh;
-    background-color: rgb(96, 190, 159);
+.header-cont {
+  width: 990px;
+  height: 320px;
 }
 
+.header-menu ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+.menu-item {
+  width: 100px;
+  color: white;
+}
+.menu-item a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.menu-item a:hover {
+  color: rgb(57, 57, 57);
+}
+.header-title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title h1 {
+  padding: 10px;
+  background-color: aqua;
+  font-size: 34px;
+}
+.header-title a {
+  margin-top: -5px;
+  padding: 5px;
+  background-color: aquamarine;
+  font-size: 24px;
+}
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.banner,
-.content1,
-.content2,
-.content3 {
-    width: 80%;
-    height: 20vh;
-    background-color: rgb(48, 99, 82);
+.cont-nav {
+  width: 990px;
+  height: 200px;
 }
-
+.cont-tit {
+  width: 990px;
+  height: 200px;
+}
+.cont-ban {
+  width: 990px;
+  height: 200px;
+}
+.cont-cont {
+  width: 990px;
+  height: 200px;
+}
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-nav,
-.footer-info {
-    width: 80%;
-    height: 10vh;
-    background-color: rgb(31, 92, 71);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
