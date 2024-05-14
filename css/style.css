@@ -10,6 +10,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  background-image: url(/image/header_bg.jpg);
 }
 
 .header-cont {
@@ -37,9 +39,10 @@ header {
 }
 .header-title {
   height: 100%;
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .header-title h1 {
