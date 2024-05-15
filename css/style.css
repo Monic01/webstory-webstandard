@@ -17,13 +17,20 @@ header {
 .header-cont {
   width: 990px;
   height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-
+.header-menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
 .header-menu ul {
   margin-top: 20px;
   display: flex;
-  justify-content: end;
-  gap: 10px;
+  gap: 5px;
 }
 .menu-item {
   width: 100px;
@@ -38,8 +45,6 @@ header {
   color: rgb(57, 57, 57);
 }
 .header-title {
-  height: 100%;
-  margin-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -47,14 +52,52 @@ header {
 }
 .header-title h1 {
   padding: 10px;
-  background-color: aqua;
-  font-size: 34px;
+  background-color: rgb(67, 171, 231);
+  font-size: 30px;
 }
 .header-title a {
   margin-top: -5px;
   padding: 5px;
-  background-color: aquamarine;
-  font-size: 24px;
+  background-color: rgb(75, 199, 158);
+  font-size: 20px;
+}
+.header-icon {
+  padding-bottom: 30px;
+}
+.header-icon ul {
+  display: flex;
+  gap: 10px;
+}
+.header-icon a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  background-image: url(/image/icon.png);
+  text-align: center;
+}
+.icon1 {
+  background-position: 0 0;
+}
+.icon1:hover {
+  background-position: -60px 0;
+}
+.icon2 {
+  background-position: 0 -60px;
+}
+.icon2:hover {
+  background-position: -60px -60px;
+}
+.icon3 {
+  background-position: 0 -120px;
+}
+.icon3:hover {
+  background-position: -60px -120px;
+}
+.icon4 {
+  background-position: 0 -180px;
+}
+.icon4:hover {
+  background-position: -60px -180px;
 }
 main {
   display: flex;
